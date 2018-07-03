@@ -1,0 +1,11 @@
+laravel
+php
+html
+css
+js
+laravel-mix
+spectre
+node.js
+composer
+npm
+git

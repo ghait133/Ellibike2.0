@@ -1,7 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Ghait Elghouate
- * Date: 22.06.2018
- * Time: 15:46
- */
+@extends('layouts.app')
+
+@section('content)
+        <form method="post" action="">
+
+            <input type="text" name="bike-frame" id="bikeframe" value="{{\Illuminate\Support\Facades\Input::get('bikeframe')}}">
+            <input type="text" name="bike-color" id="bikecolor" value="{{\Illuminate\Support\Facades\Input::get('bikecoler')}}">
+            <input type="text" name="bike-size" id="bikesize" value="{{\Illuminate\Support\Facades\Input::get('bikesize')}}">
+            <button type="submit">anmelden</button>
+        </form>
+
+@endsection
