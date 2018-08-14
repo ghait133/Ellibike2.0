@@ -22,9 +22,8 @@ Route::get('/', function () {
     return view('auth/login');
 });
 
+
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('bikesRegister', 'Auth\BikesRegister@showRegistrationForm')->name('bikesRegister');
 
-Route::get('/fahrrad/anmelden',function (){
-   return view('bikes/register') ->name('BikeRegister');
-});

@@ -16,7 +16,7 @@
                     Great {{ Auth::user()->email }}
                     You are logged in!
 
-                    <a href="{{route('BikeRegister')}}">Fahrrad anmelden</a>
+                        <a href="{{ route('bikesRegister') }}">some textxamp</a>
                 </div>
             </div>
         </div>
